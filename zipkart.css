@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* ================= NAVBAR ================= */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 60px;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+}
+
+.left-nav .nav-icon {
+    font-size: 28px;
+    color: #ffcc70;
+}
+
+.elements {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.elements li {
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.elements li:hover {
+    color: #00ffff;
+}
+
+.logo1 i {
+    font-size: 28px;
+    color: #00ffff;
+}
+
+/* ================= HERO SECTION ================= */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 70px 60px;
+}
+
+.imag img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00ffff;
+    box-shadow: 0 0 40px rgba(0,255,255,0.5);
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h1 span {
+    color: #ff4b2b;
+    text-shadow: 0 0 12px red;
+}
+
+.text h2 {
+    color: #00ffff;
+    margin: 8px 0;
+}
+
+.text p {
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.about-details p {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #bbb;
+}
+
+#logo a {
+    margin-right: 15px;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.fa-facebook { color: #1877f2; }
+.fa-instagram { color: #e1306c; }
+.fa-linkedin { color: #0a66c2; }
+
+#logo a:hover {
+    transform: scale(1.2);
+}
+
+/* ================= SHOP SECTION ================= */
+.shop {
+    background: #f1f3f6;
+    padding: 50px 60px;
+    color: black;
+}
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2874f0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.login-btn {
+    background: white;
+    color: #2874f0;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* LOGIN BOX */
+.login-box {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.login-box h3 {
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    color: #bbb;
+}
